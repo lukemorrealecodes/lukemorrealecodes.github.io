@@ -1,0 +1,41 @@
+/* Luke Morreale
+September 19
+*/
+
+header {
+    background-color: aqua;
+}
+
+footer {
+    background-color: aqua;
+}
+
+p {
+    font-size: 20px;
+}
+
+ul {
+    font-size: 20px;
+}
+
+li {
+    font-size: 20px;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: #00F9;
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+a:active {
+    color: bisque;
+}
+
+
