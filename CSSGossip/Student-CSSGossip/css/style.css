@@ -1,0 +1,71 @@
+#outerwrapper {
+    width: 650px;
+  	background-color: #e7dbf6;
+  	margin-left: auto;
+  	margin-right: auto
+}
+
+nav {
+    width: 175px;
+    background-color: #e7dbf6;
+    float: left;
+}
+
+article {
+    margin-left: 175px;
+    background-color: white;
+    padding: 10px;
+}
+
+/*Camerons coding
+
+/* SET 1 INSTRUCTIONS */
+body {
+    font-family: 'Arial', 'sans-serif';
+    font-size: 1em;
+    background-image: url(../image/abstractPic.jpg);
+    background-size: cover;
+}
+H1 {
+    font-size: 2em;
+    font-style: italic;
+}
+H3 {
+    font-size: 1.5em;
+    border-bottom: 1px solid black;
+}
+/* SET 1 INSTRUCTIONS */
+/* SET 2 INSTRUCTIONS */
+.fonts {
+color: orange;
+font-family: 'Comic Sans MS', 'sans-serif';
+font-size: 1.5em;
+font-style: italic;
+font-weight: bold;
+}
+.colors {
+    color: red;
+    font-weight: bold;
+}
+.more {
+    color: blue;
+    text-decoration: underline;
+    border: 1px dashed gray;
+    background-color: #D69BBE;
+}
+.backgrounds {
+    color: green;
+    font: 'Trebuchet MS', sans-serif;
+    font-size: 1.25em;
+}
+article ul {
+   list-style-image: url(../image/peaceSign.png);
+}
+/* SET 2 INSTRUCTIONS */
+
+footer {
+    font-size: .75em;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
