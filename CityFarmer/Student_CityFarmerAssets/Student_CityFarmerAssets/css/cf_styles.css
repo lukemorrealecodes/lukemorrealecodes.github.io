@@ -1,0 +1,58 @@
+/* Luke Morreale / Cameron Brown
+*/
+
+
+#outerwrapper {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+.floatleft { 
+float: left;
+margin-right: 3%;
+}
+
+.floatright {
+float: right;
+margin-left: 3%;
+}
+
+main, footer { 
+clear: both;
+}
+
+body {
+	background-color: #b8d1eb;
+	color: #000000;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+	background-color: #C5A98B;
+	padding: 10px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+footer {
+	font-size: .75em;
+	text-align: center;
+	background-color: aquamarine;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+article ul{
+	list-style-image: url(../images/tomato.png) 
+}
+
+h1 {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
