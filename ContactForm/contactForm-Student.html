@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<!-- Name
+     Date -->
+<html lang="en">
+<head>
+    <title>Contact Form</title>
+    <meta name="author" content="Your Name" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Your Name web developer Boise Idaho" />
+    <meta name="keywords" content="client-side server-side C# HTML CSS JavaScript" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        div {
+            margin: 10px;
+        }
+
+        label {
+            margin-right: 15px;
+            width: 150px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <form action="mailto:lukemorreale@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+        <!-- Group Fields Together, page 104 -->
+        <fieldset>
+        <legend>How do I contact you?</legend>
+            <!-- Company Select Box, page 97 -->
+            <div>
+                <label for="Company">Company:</label>
+                <input type="text" id="Company" name="Company"  size="30" />
+            </div>
+                <label for="Person to contact">Person to Contact:</label>
+                <input type="text" id="person to contact" name="person to contact"  size="30" />
+            <div>
+
+            </div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Email" size="30" required/>	
+            <div>
+
+            </div>
+            <!-- Phone, textbook file rental.html-->
+            <!--Video 9.9 Building and Testing a Valid Form-->
+            <label for="number">Phone Number:</label>
+            <input type="text" id="number" name="number"placeholder="000-000-0000" size="30" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
+            <div>
+
+            </div>
+        </fieldset>
+
+        <!-- Group Fields Together, page 104 -->
+        <fieldset>
+            <legend>What opportunities are available at your company?</legend>
+            <!-- Select Box, page 98 -->
+                <label for="position">Type of Position:</label>
+                <select>                    
+                    <option value="0">Internship</option>
+                    <option value="1">Part-Time</option>
+                    <option value="2">Full-Time</option>
+                    <option value="3">Temporary</option>
+                    <option value="4">Contract</option>
+                    <option value="5">On Call</option>
+                </select>
+            <!-- Radio Buttons, page 99 -->
+
+            <div>
+                <!-- Text Area, textbook file code-9-1.html -->
+                 <label for="find me">How did you find me?</label>
+                 <input type="radio" name="LinkedIn" id="LinkedIn" value="1-option"/> <label for="LinkedIn">LinkedIn</label>
+                 <input type="radio" name="JobFair" id="JobFair" value="2-option"/> <label for="JobFair">Job Fair</label>
+                 <input type="radio" name="Partner" id="Partner" value="3-option"/> <label for="Partner">CWI Corporate Partner</label>	
+            </div>
+            <div>
+                <textarea id="textarea" name="textarea" rows="10" cols="100" placeholder="How can I prepare for the interview?"></textarea>
+            </div>
+        </fieldset>
+		<input type="submit" id="submit" value="Submit" class="btn">
+     </form>
+</body>
+</html>
