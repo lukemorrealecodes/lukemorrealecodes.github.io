@@ -1,0 +1,67 @@
+
+/*Luke Morreale October 22 */
+
+
+#outerwrapper {	
+
+	background: rgba(243,205,170, 0.4);
+	border-radius: 15%;
+	width: 70%;
+	margin: 0 auto;
+}
+
+html {
+	background-image: url(../images/jewelry.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+footer {
+	font-size: 1em;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+main {
+	background: linear-gradient(#FFFFFF, #F0F9E6);
+	padding: 10px;
+	margin: 20px;
+	border-radius: 2em;
+	font-size: 1.25em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+	float: left;
+	border-radius: 50%;
+}
+
+.addrightmargin {
+	margin-right: 10%;
+}
+
+nav ul {
+	list-style-type: none;
+	font-size: 1.5em;
+	clear: both;
+}
+
+h1 {
+	font-family: "Pacifico", cursive;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 4em;
+  }
+
+  @font-face {
+	font-family: 'CustomFont';
+	src: url(/Student/fonts/roboto/Roboto-Italic.ttf) format(Roboto-Italic);
+  }
+
+  h2 {
+	font-family: 'CustomFont', serif;
+  }
+
+
