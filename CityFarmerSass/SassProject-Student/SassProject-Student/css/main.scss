@@ -1,0 +1,91 @@
+
+$backgroundBlue: #B8D1EB;
+$navBackground: #C5A98B;
+$navText: #000;
+$navActive: #7a6b48;
+$navHover: #8B0000;
+
+body { 
+  background-color: $backgroundBlue;
+  font-family: "Times New Roman", serif;
+}
+
+#outerwrapper { 
+  width: 70%;
+  margin: 0 auto;
+}
+
+.floatleft {  
+  float: left;
+  margin-right: 3%;
+}
+
+h1 {
+  font-family: 'Righteous', cursive;
+  font-size: 60px;
+}
+
+h2 {
+  font-family: 'Quicksand-Bold', Arial, sans-serif;
+  font-weight: normal;
+  font-style: italic;
+}
+
+main {  
+  background-color: $navBackground;
+  padding: 10px;
+}
+
+main > ul {
+  list-style-image: url(../images/tomatoeBullet.png);
+}
+
+main, footer { 
+  clear: both;
+}
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  background-color: $navBackground;
+  padding: 10px 0px;
+}
+
+
+nav {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: $navBackground;
+    overflow: hidden;
+
+    li {
+      float: left;
+
+      a {
+        display: block;
+        color: $navText;
+        padding: 8px 16px;
+        text-decoration: none;
+        text-align: center;
+
+        &.active {
+          background-color: $navActive;
+          color: $navText;
+        }
+
+        &:hover:not(.active) {
+          background-color: $navHover;
+          color: $navText;
+        }
+      }
+    }
+  }
+}
+
+.floatright {
+  float: right;
+  margin-left: 3%;
+}
