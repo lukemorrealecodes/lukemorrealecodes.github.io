@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'quicksand';
+    src: url('../fonts/quicksand-regular-webfont.woff') format('woff'),
+         url('../fonts/quicksand-regular-webfont.woff2') format('woff2');
+         font-weight: normal;
+         font-style: normal;
+}
+
+p {
+    font-family: "Oswald", "Times New Roman", sans-serif;
+    font-weight: 350;
+    font-style: normal;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+  }
+
+body {
+    background: rgb(183, 204, 205);
+    color: #333333;
+    font-size: 1.25rem;
+}
+
+h1 {
+    font-family: 'quicksand', 'Times New Roman', serif;
+
+}
+
+h2 {
+    text-align: center;
+    font-family: 'quicksand', 'Times New Roman', serif;
+}
+
+h3 {
+    font-family: 'quicksand', 'Times New Roman', serif;
+    padding-left: 50px;
+    padding-left: 50px;
+}
+
+/*  NAVIGATION */
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: turquoise;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    padding-left: 1px;
+    padding-right: 1px;
+    border-radius: 12px;
+}
+
+nav ul li a:link {
+    color: blue;
+}
+
+nav ul li a:active {
+    color: red;
+}
+
+footer {
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn {
+    margin-left: 250px;
+    border-radius: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: turquoise;
+    font-family: "Oswald", sans-serif;
+}
+
+.btn:hover {
+    background-color: orange;
+}
+
+/*END NAVIGATION */
+
+.indexPage
+{
+    background-image: url(/Images/Unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+

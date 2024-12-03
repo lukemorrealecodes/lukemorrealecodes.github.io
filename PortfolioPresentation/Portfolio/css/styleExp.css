@@ -1,0 +1,52 @@
+.othertitle
+{
+     text-align: center;
+}
+.otherExperiences {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.projectBox {
+    background:#00008833;
+    border: 1px solid #000000;
+    margin: 10px;
+    text-align: center;
+    width: 31%;
+
+}
+
+.projectBox h4.experience {
+    background: turquoise;    
+    color: black;
+    padding: 15px;
+}
+
+.projectBox img {
+    margin-bottom: 20px;
+}
+
+.projectBox a.button1 {
+    display: block;
+    width: 40%;
+    margin: 10px auto;
+    color: #FFFFFF;
+    background: orange;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 1px;
+}
+
+.projectBox a.button1:hover
+{
+    background: black;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+footer {
+    clear: left;
+}
