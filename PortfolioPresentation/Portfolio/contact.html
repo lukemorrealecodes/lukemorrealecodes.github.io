@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--Luke Morreale
+August 27-->
+<html lang="en">
+    <head>
+        <title>Luke Morreale</title>
+        <meta name="author" content="Luke Morreale"/>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Luke Morreale, software app designer in Boise Idaho"/>
+        <meta name="keywords" content="C# server-side software developer programmer"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    </head>
+    <body>
+        <header role="banner">
+            <h1>Luke Morreale</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Contact me</h2>
+            <h3>I will graduate spring of 2025. Please fill out the form below
+                to discuss employment opportunities, I am ready to work!
+            </h3>
+            <form action="mailto:lukemorreale@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+                <fieldset>
+                <legend>How do I contact you?</legend>
+                    <div>
+                        <label for="Company">Company:</label>
+                        <input type="text" id="Company" name="Company"  size="30" />
+                    </div>
+                        <label for="person-to-contact">Person to Contact:</label>
+                        <input type="text" id="person-to-contact" name="person-to-contact"  size="30" />
+                    <div>
+        
+                    </div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="Email" size="30" required/>	
+                    <div>
+        
+                    </div>
+                    <label for="number">Phone Number:</label>
+                    <input type="text" id="number" name="number" placeholder="000-000-0000" size="30" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
+                    <div>
+        
+                    </div>
+                </fieldset>
+        
+                <fieldset>
+                    <legend>What opportunities are available at your company?</legend>
+                        <label>Type of Position:</label>
+                        <select>                    
+                            <option value="0">Internship</option>
+                            <option value="1">Part-Time</option>
+                            <option value="2">Full-Time</option>
+                            <option value="3">Temporary</option>
+                            <option value="4">Contract</option>
+                            <option value="5">On Call</option>
+                        </select>
+        
+                    <div>
+                         <label>How did you find me?</label>
+                         <input type="radio" name="LinkedIn" id="LinkedIn" value="1-option"/> <label for="LinkedIn">LinkedIn</label>
+                         <input type="radio" name="JobFair" id="JobFair" value="2-option"/> <label for="JobFair">Job Fair</label>
+                         <input type="radio" name="Partner" id="Partner" value="3-option"/> <label for="Partner">CWI Corporate Partner</label>	
+                    </div>
+                    <div>
+                        <textarea id="textarea" name="textarea" rows="10" cols="100" placeholder="How can I prepare for the interview?"></textarea>
+                    </div>
+                </fieldset>
+                <input type="submit" id="submit" value="Submit" class="btn">
+             </form>
+        </main>
+        <footer>
+            <hr>
+            <br>
+            <a href="https://www.linkedin.com/in/luke-morreale/" target="_blank"><img src="Images/iconmonstr-linkedin-1-240.png" alt="link to LinkedIn page" width="30"></a>
+        &nbsp;&nbsp; <a target="_blank" href="https://github.com/LukeSometimesCodes"><img src="Images/iconmonstr-github-1-240.png" alt="Link to GitHub page" width="30">
+            </a>
+            <br>
+            Or check out my other website <a target="_blank" href="https://lukesometimescodes.github.io/">Here!</a>
+        </footer>
+    </body>
+</html>
