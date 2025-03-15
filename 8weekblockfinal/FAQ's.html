@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FAQ's
+    </title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="css/jquery-ui.css" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+
+    <!--Header and Navigation-->
+    <h1>Nature Tour Guides</h1>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutUs.html">About us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="FAQ's.html">FAQ's</a></li>
+      </ul>
+    </nav>
+
+    <h1>Frequently Asked Questions</h1>
+
+    <h2>Your question might already have been answered! Below are some of our more common ones.</h2>
+
+    <br>
+    <br>
+
+<div id="accordion">
+	<h3>What is a nature tour?</h3>
+	<div>A nature tour is an outdoor activity where you explore scenic landscapes, wildlife, and ecosystems with the guidance of an expert tour guide.</div>
+
+	<h3>How long are the tours?</h3>
+	<div>Our tours vary in length depending on the trail or activity, ranging from a few hours to full-day adventures.</div>
+
+	<h3>Do I need experience to join a tour?</h3>
+	<div>No experience is required! We offer tours for beginners, intermediate, and advanced hikers. Our guides will tailor the experience to your skill level.</div>
+
+    <h3>What should I bring on the tour?</h3>
+    <div>We recommend bringing water, sunscreen, appropriate footwear, and a camera to capture the beautiful scenery!</div>
+
+</div>
+
+</main>
+
+<script src="js/java.js"></script>
+<script src="js/external/jquery/jquery.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script>
+    $(document).ready(function() {
+      $("#accordion").accordion({
+        collapsible: true,
+        active: false,
+        heightStyle: "content"
+      });
+    });
+  </script>
+<!--Footer-->
+<footer>
+    <br>
+    <p>Rick Del Vecchio's Class |&nbsp;Intermediate Web App Development</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,54 @@
+Modification log
+
+~~~~~~~~~~~01/31/2025~~~~~~~~~~~~
+
+- Set up folder structure, created index.html as well as CSS and JS and Images folders
+
+***INDEX PAGE***
+-Created background photo, added filler text, created nav bar(not connected to anything)
+- Titled "Nature Tour Guides"
+ 
+***CSS***
+- linked to index, centered all text and styled nav bar
+- styled nav bar
+
+~~~~~~~~~~~~~02/01/2025~~~~~~~~~~~~~~~~~~~~~~
+***INDEX PAGE***
+- Created footer
+- Replaced first filler paragraph with actual words
+
+***CSS***
+-styled footer, off center to account for background photo (done on complete accident)
+
+***JS***
+- Created Java function 'javaMessage' originally made to trigger on button click
+-Originally created code that would trigger if they didn't put anything in for their name, would trigger
+a comment about grabbing their IP, also removed.
+- Button prompt does not work, changing to trigger when site first loads
+
+~~~~~~~~~~02/16/2025~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*** CONTACT US***
+-created contact.htm
+-created form and matching JS file  
+
+***JS***
+-created JS file for gallery and contact us page 
+- finished both so gallery rotates and contact us form has requirements, alerts if done correctly as well
+
+
+~~~~~~~~~~~~~~02/28/2025~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+***HTML***
+- Correctly linked all navigation areas across all pages
+- Created aboutUs.html, filled with backstory I completely made up. It's a fabrication, there is no Luke's nature trails.
+
+
+~~~~~~~~~~~~~~~3/14/2025~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+***HTML***
+-Created new FAQ page, filled with 4 questions and linked to CSS/JS
+-for index.html, replaced lorum ipsum with actual content(AI generated)
+-Corrected title for each page so correct title shows up on tab.
+
+***JS***
+-For FAQ page, incorporated Jquery by putting in accordion style widget, linked to correct JS file
+-For Contact page, incorporated Regex into form to allow only for valid email and first and last name.
+
